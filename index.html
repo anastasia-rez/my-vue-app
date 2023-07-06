@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue demo</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <script type="module" src="./assets/js/app.js"></script>
+    
+</head>
+<body>
+    <div class="container py-3" id="app">
+        <h1>{{title}} <i class="fa-solid fa-sailboat"></i> </h1>
+        <p class="alert alert-success">{{description}}</p>
+        <button class="btn btn-danger" @click="clicker++">{{clicker}}</button>
+
+    </div>
+</body>
+</html>
